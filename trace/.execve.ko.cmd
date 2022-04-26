@@ -1,0 +1,1 @@
+cmd_/home/tsj/Desktop/trace/execve.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/tsj/Desktop/trace/execve.ko /home/tsj/Desktop/trace/execve.o /home/tsj/Desktop/trace/execve.mod.o;  true
