@@ -1,0 +1,20 @@
+{
+  "name": "Kernel",
+  "version": "v1.0.0",
+  "dependencies": [],
+  "type": "host",
+  "start": {
+    "type": "exec",
+    "path": "${ROOT}/start.sh",
+    "params": [
+      "${AGENTID}"
+    ]
+  },
+  "stop": {
+    "type": "exec",
+    "path": "${ROOT}/stop.sh",
+    "params": [
+      "${AGENTID}"
+    ]
+  }
+}

@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/kill.mod := { echo  /home/tsj/Desktop/trace/kill.o;  echo; } > /home/tsj/Desktop/trace/kill.mod
+cmd_/home/y0unge/kernel_monitor/trace/kill.mod := { echo  /home/y0unge/kernel_monitor/trace/kill.o;  echo; } > /home/y0unge/kernel_monitor/trace/kill.mod

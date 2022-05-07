@@ -1,4 +1,4 @@
-transfer.o: /home/tsj/Desktop/trace/transfer.c \
+transfer.o: /home/y0unge/kernel_monitor/trace/transfer.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \

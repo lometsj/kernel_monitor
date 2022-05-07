@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/execve.o
+/home/y0unge/kernel_monitor/trace/execve.o
 

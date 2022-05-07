@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/transfer.o
+/home/y0unge/kernel_monitor/trace/transfer.o
 

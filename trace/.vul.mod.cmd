@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/vul.mod := { echo  /home/tsj/Desktop/trace/vul.o;  echo; } > /home/tsj/Desktop/trace/vul.mod
+cmd_/home/y0unge/kernel_monitor/trace/vul.mod := { echo  /home/y0unge/kernel_monitor/trace/vul.o;  echo; } > /home/y0unge/kernel_monitor/trace/vul.mod

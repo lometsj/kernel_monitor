@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/shell.o
+/home/y0unge/kernel_monitor/trace/shell.o
 

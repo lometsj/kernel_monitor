@@ -26,8 +26,9 @@ int my_open(struct kprobe *p, struct pt_regs *regs){
 	strncpy_from_user(filename, regs->si, 255-1);
 	int flags = regs->dx;
 	int mode = regs->r10;
-	snprintf(buf, 255-1, "detect open[%p], uid=%u, proc_name=%s, pid=%d, filename=%s",p->addr,current->cred->uid, current->comm, current->pid, filename);
-	send_msg(buf, 255, 100);
+//	snprintf(buf, 255-1, "detect open[%p], uid=%u, proc_name=%s, pid=%d, filename=%s",p->addr,current->cred->uid, current->comm, current->pid, filename);
+    snprintf(buf, 255-1, "open: uid=%u , pname=%s , pid=%d , path=%s",current->cred->uid, current->comm, current->pid, filename);
+    send_msg(buf, 255, 100);
 	return 0;
 }
 

@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/probe.mod := { echo  /home/tsj/Desktop/trace/probe.o;  echo; } > /home/tsj/Desktop/trace/probe.mod
+cmd_/home/y0unge/kernel_monitor/trace/probe.mod := { echo  /home/y0unge/kernel_monitor/trace/probe.o;  echo; } > /home/y0unge/kernel_monitor/trace/probe.mod

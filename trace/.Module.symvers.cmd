@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/Module.symvers := sed 's/\.ko$$/\.o/' /home/tsj/Desktop/trace/modules.order | scripts/mod/modpost -m -a  -o /home/tsj/Desktop/trace/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/y0unge/kernel_monitor/trace/Module.symvers := sed 's/\.ko$$/\.o/' /home/y0unge/kernel_monitor/trace/modules.order | scripts/mod/modpost -m -a  -o /home/y0unge/kernel_monitor/trace/Module.symvers -e -i Module.symvers   -T -

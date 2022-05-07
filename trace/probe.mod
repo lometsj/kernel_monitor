@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/probe.o
+/home/y0unge/kernel_monitor/trace/probe.o
 

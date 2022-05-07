@@ -1,7 +1,7 @@
-/home/tsj/Desktop/trace/transfer.ko
-/home/tsj/Desktop/trace/probe.ko
-/home/tsj/Desktop/trace/execve.ko
-/home/tsj/Desktop/trace/kill.ko
-/home/tsj/Desktop/trace/open.ko
-/home/tsj/Desktop/trace/shell.ko
-/home/tsj/Desktop/trace/vul.ko
+/home/y0unge/kernel_monitor/trace/transfer.ko
+/home/y0unge/kernel_monitor/trace/probe.ko
+/home/y0unge/kernel_monitor/trace/execve.ko
+/home/y0unge/kernel_monitor/trace/kill.ko
+/home/y0unge/kernel_monitor/trace/open.ko
+/home/y0unge/kernel_monitor/trace/shell.ko
+/home/y0unge/kernel_monitor/trace/vul.ko

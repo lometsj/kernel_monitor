@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/open.o
+/home/y0unge/kernel_monitor/trace/open.o
 

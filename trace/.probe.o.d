@@ -1,9 +1,9 @@
-probe.o: /home/tsj/Desktop/trace/probe.c include/linux/compiler-version.h \
- include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h include/linux/kernel.h \
- include/linux/align.h include/linux/const.h include/vdso/const.h \
- include/uapi/linux/const.h include/linux/limits.h \
+probe.o: /home/y0unge/kernel_monitor/trace/probe.c \
+ include/linux/compiler-version.h include/linux/kconfig.h \
+ include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ include/linux/kernel.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h include/linux/limits.h \
  include/uapi/linux/limits.h include/linux/types.h \
  include/uapi/linux/types.h arch/x86/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
@@ -258,5 +258,5 @@ probe.o: /home/tsj/Desktop/trace/probe.c include/linux/compiler-version.h \
  include/linux/freelist.h arch/x86/include/asm/kprobes.h \
  include/asm-generic/kprobes.h arch/x86/include/asm/text-patching.h \
  arch/x86/include/asm/insn.h arch/x86/include/asm/inat.h \
- arch/x86/include/asm/inat_types.h /home/tsj/Desktop/trace/trace.h \
- include/linux/slab.h
+ arch/x86/include/asm/inat_types.h \
+ /home/y0unge/kernel_monitor/trace/trace.h include/linux/slab.h

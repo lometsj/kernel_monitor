@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/vul.o
+/home/y0unge/kernel_monitor/trace/vul.o
 

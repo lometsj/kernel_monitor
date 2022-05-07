@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/vul.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/tsj/Desktop/trace/vul.ko /home/tsj/Desktop/trace/vul.o /home/tsj/Desktop/trace/vul.mod.o;  true
+cmd_/home/y0unge/kernel_monitor/trace/vul.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/y0unge/kernel_monitor/trace/vul.ko /home/y0unge/kernel_monitor/trace/vul.o /home/y0unge/kernel_monitor/trace/vul.mod.o;  true

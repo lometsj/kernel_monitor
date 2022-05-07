@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/kill.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/tsj/Desktop/trace/kill.ko /home/tsj/Desktop/trace/kill.o /home/tsj/Desktop/trace/kill.mod.o;  true
+cmd_/home/y0unge/kernel_monitor/trace/kill.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/y0unge/kernel_monitor/trace/kill.ko /home/y0unge/kernel_monitor/trace/kill.o /home/y0unge/kernel_monitor/trace/kill.mod.o;  true

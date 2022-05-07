@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/transfer.mod := { echo  /home/tsj/Desktop/trace/transfer.o;  echo; } > /home/tsj/Desktop/trace/transfer.mod
+cmd_/home/y0unge/kernel_monitor/trace/transfer.mod := { echo  /home/y0unge/kernel_monitor/trace/transfer.o;  echo; } > /home/y0unge/kernel_monitor/trace/transfer.mod

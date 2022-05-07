@@ -74,7 +74,7 @@ int my_execve(struct kprobe *p, struct pt_regs *regs){
 	// snprintf(buf, 255-1, "filename:%s, argv[0]=%s, envp=%s", filename, argv[0], envp[0]);
 	// send_msg(idx, buf, 255, 100);
 	pr_info("rdi=%lx, rsi=%lx, rdx=%lx, rcx=%lx, r10=%lx", regs->di, regs->si, regs->dx, regs->cx, regs->r10);
-	len += snprintf(buf, 1024-1, "execve: uid=%u, proc_name=%s, pid=%d, parent_name=%s, ppid=%d command=execve(%s,[",current->cred->uid, current->comm, current->pid, current->parent->comm, current->parent->pid, filename);
+	len += snprintf(buf, 1024-1, "execve: uid=%u , pname=%s , pid=%d , ppname=%s , ppid=%d , path=%s , args=[",current->cred->uid, current->comm, current->pid, current->parent->comm, current->parent->pid, filename);
 	if(!strncmp(filename, "./test", 4) || 1){
 		pr_info("test execve??");
 

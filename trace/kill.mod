@@ -1,2 +1,2 @@
-/home/tsj/Desktop/trace/kill.o
+/home/y0unge/kernel_monitor/trace/kill.o
 

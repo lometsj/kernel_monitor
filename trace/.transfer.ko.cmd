@@ -1,1 +1,1 @@
-cmd_/home/tsj/Desktop/trace/transfer.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/tsj/Desktop/trace/transfer.ko /home/tsj/Desktop/trace/transfer.o /home/tsj/Desktop/trace/transfer.mod.o;  true
+cmd_/home/y0unge/kernel_monitor/trace/transfer.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/y0unge/kernel_monitor/trace/transfer.ko /home/y0unge/kernel_monitor/trace/transfer.o /home/y0unge/kernel_monitor/trace/transfer.mod.o;  true
