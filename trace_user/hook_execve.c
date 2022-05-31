@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <unistd.h>
 #include <errno.h>
-#include <time.h>
+#include <sys/time.h>
 #include "sothoth.h"
 
 #define NETLINK_TEST    30
@@ -20,15 +20,11 @@ typedef struct _user_msg_info
     char  msg[MSG_LEN];
 } user_msg_info;
 
-char* getDateTime()
+long getCurrentTime()
 {
-    char *nowtime= malloc(128);
-    time_t rawtime;
-    struct tm* ltime;
-    time(&rawtime);
-    ltime = localtime(&rawtime);
-    strftime(nowtime, 20, "%Y-%m-%d %H:%M:%S", ltime);
-    return nowtime;
+    struct timeval tv;
+    gettimeofday(&tv,NULL);
+    return tv.tv_sec * 1000 + tv.tv_usec / 1000;
 }
 
 int main(int argc, char *argv[])
@@ -94,9 +90,7 @@ int main(int argc, char *argv[])
             exit(-1);
         }
         char msg[MSG_LEN];
-        char *time = getDateTime();
-        sprintf(msg,"%s , time=%s",u_info.msg,time);
-        free(time);
+        sprintf(msg,"%s , time=%ld",u_info.msg,getCurrentTime());
         printf("from kernel:%s\n", msg);
         if((data = cJSON_CreateObject()) == NULL){
             return -1;
